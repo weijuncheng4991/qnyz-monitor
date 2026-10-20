@@ -1,4 +1,4 @@
-# GitHub Actions 监控组 B：入住 9/7 → 离店 9/12，仅个人，全区
+# GitHub Actions 监控组 B：入住 10/23 → 离店 10/24，仅个人，全区
 # 不含密钥；Bark key 由 Actions Secret（BARK_URL）注入。
 
 base_url: "https://qnyz.shyouth.net/qnyzApi"
@@ -11,8 +11,20 @@ filters:
   user_type: 2
   apply_scope: "personal"
   districts: []
-  date_from: "2026-09-11"
-  date_to: "2026-09-14"
+  only_stations:
+    - "239"
+    - "195"
+    - "201"
+    - "224"
+    - "226"
+    - "216"
+    - "190"
+    - "188"
+    - "242"
+    - "200"
+    - "193"
+  date_from: "2026-10-23"
+  date_to: "2026-10-24"
   min_house_count: 0
   min_apply_number: 1
 
