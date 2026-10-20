@@ -1,4 +1,4 @@
-# GitHub Actions 监控组 A：入住 9/5 → 离店 9/12，仅个人，全区
+# GitHub Actions 监控组 A：入住 10/22 → 离店 10/24，仅个人，全区
 # 不含密钥；Bark key 由 Actions Secret（BARK_URL）注入。
 
 base_url: "https://qnyz.shyouth.net/qnyzApi"
@@ -11,9 +11,20 @@ filters:
   user_type: 2
   apply_scope: "personal"
   districts: []
-  only_stations: ["友间公寓宁国路社区青年驿站"]
-  date_from: "2026-09-11"
-  date_to: "2026-09-14"
+  only_stations: 
+    - "239"  # 汉庭上海大宁国际广粤路酒店青年驿站
+    - "195"  # 璟辰公寓青年驿站
+    - "201"  # 友间公寓大统路社区青年驿站，静安友间
+    - "224"  # 锦江之星五角场同济大学地铁站青年驿站
+    - "226"  # 锦江之星风尚上海北外滩青年驿站
+    - "216"  # 友间公寓宝地虹乐苑青年驿站，虹口友间
+    - "190"  # 友间公寓四平路社区青年驿站
+    - "188"  # 城投宽庭张江社区青年驿站
+    - "242"  # 桔子上海虹桥延安西路酒店青年驿站
+    - "200"  # 微领地新静安中心社区（二期）青年驿站
+    - "193"  # 虹桥人才公寓（西区）青年驿站
+  date_from: "2026-10-22"
+  date_to: "2026-10-24"
   min_house_count: 0
   min_apply_number: 1
 
