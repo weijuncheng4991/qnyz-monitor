@@ -4,7 +4,7 @@ on:
   # 定时有两条路，二选一，当前用的是【首选】。详见 README「定时触发」。
   #
   # 【首选】外部定时服务（如 cron-job.org）按固定间隔调 GitHub API，走下面的
-  #   workflow_dispatch 入口。准点，间隔可低至 5 分钟：
+  #   workflow_dispatch 入口。准点，间隔可低至5分钟：
   #     POST https://api.github.com/repos/<owner>/<repo>/actions/workflows/monitor.yml/dispatches
   #     headers: Authorization: Bearer <PAT>, Accept: application/vnd.github+json
   #     body:    {"ref":"main"}
